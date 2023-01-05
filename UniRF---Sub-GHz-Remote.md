@@ -1,5 +1,3 @@
-# UniRF Remix / Sub-GHz Remote
-
 ### The UniRF Tool *requires* the creation of custom user map with `.txt` extension in the `unirf` folder on the sdcard. 
 
 #### If these files are not exist or not configured properly, **you will receive an error each time you try to select wrong file in the UniRF Tool**.
