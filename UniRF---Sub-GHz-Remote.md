@@ -1,11 +1,12 @@
-## UniRF Remix / Sub-GHz Remote
+# UniRF Remix / Sub-GHz Remote
 
-The UniRF Tool *requires* the creation of custom user map with `.txt` extension in the `unirf` folder on the sdcard. 
-If these files are not exist or not configured properly, **you will receive an error each time you try to select wrong file in the UniRF Tool**.
+### The UniRF Tool *requires* the creation of custom user map with `.txt` extension in the `unirf` folder on the sdcard. 
 
-You can add as many `.txt` map files as you want, file name doesn't matter!
+#### If these files are not exist or not configured properly, **you will receive an error each time you try to select wrong file in the UniRF Tool**.
 
-`Incorrect or unconfigured file error`
+## You can add as many `.txt` map files as you want, file name doesn't matter!
+
+## Incorrect or unconfigured file error
 
 If the `.txt` file has not been properly configured, the following error will be thrown when trying to run the UniRF Remix app:
 
@@ -38,7 +39,7 @@ The UP/DOWN/LEFT/RIGHT/OK file locations must be set to the specific file you wa
 
 The ULABEL/DLABEL/LLABEL/RLABEL/OKLABEL variables should be set to the text to be displayed for each of the files set earlier.
 
-# Example:
+## Example:
 
 ```
 UP: /ext/subghz/Fan1.sub
@@ -53,7 +54,7 @@ RLABEL: Garage OPEN
 OKLABEL: Garage CLOSE
 ```
 
-# Notes
+## Notes
 * ##### App Usage
   - Press a button to send the assigned capture file.
   - Press Back button to exit app.
