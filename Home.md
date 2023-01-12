@@ -8,7 +8,7 @@ If you have any questions, please join our [Discord](https://discord.gg/flipper-
 
 | Number | Usage |
 ---------|-----------
-| 0. | List of all Apps |
+| 0.X | Basic overview of the Flipper & XFW |
 | 1.X | Simple explanation of the different formats used for Flipper files. Helpful when making your own or debugging broken ones |
 | 2.X | More in-depth nerd talk about the various systems. |
 
