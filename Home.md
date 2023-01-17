@@ -21,19 +21,22 @@ This should help you navigate this wiki, if not just let us know and we will hel
 **2)** How do I enable **SFW** mode?
 > From the Home screen (the one with the animations) hit the `Arrow UP` button, its gonna be right there for you to select it
 
-**3)** I get an error saying "furi_version mismatch" when loading an app, how do I fix that?
+**3)** Is it possible to set my Dolphin level?
+> Of course! To set a custom level, you can download a custom `.dolphin.state` which you can [find here](https://github.com/UberGuidoZ/Flipper/tree/main/Dolphin_Level/ClaraCrazy/). To switch the level, open qFlipper, navigate to `Internal Flash`, click the slider for `Hidden files`, replace the `.dolphin.state` with the one you downloaded and make sure it is named `.dolphin.state`, and finally restart your Flipper :D
+
+**4)** I get an error saying "furi_version mismatch" when loading an app, how do I fix that?
 > Open qFlipper, go to `SD` and delete the `Apps` folder. Then launch the latest update again. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). If the issue persists, its our fault and please open a ticket!
 
-**4)** After a while, my Slut stops to level up, why is that?
+**5)** After a while, my Slut stops to level up, why is that?
 > We added max. daily limits to make sure you arent just cheating your way to level 30
 
-**5)** I really like the firmware, can I help?
+**6)** I really like the firmware, can I help?
 > You can donate on the links you find on the github releases, preferrably the Patreon. You can spend time in our server to help others with issues, you can contribute to the project by making PRs on github and most importantly, you can simply spread the word!
 
-**6)** I dont like the animations, and dont want to switch to another FW, how do I change them?
+**7)** I dont like the animations, and dont want to switch to another FW, how do I change them?
 > <https://www.youtube.com/watch?v=9uOn6M9m0Dg>
 
-**7)** After an Update / Randomly one day, qFlipper says something like *permission denied*.. Whats going on?
+**8)** After an Update / Randomly one day, qFlipper says something like *permission denied*.. Whats going on?
 > Windows is going on... Essentially, either two devices use your COM port qFlipper expects, or Windows assigned your Flipper a completely different COM port. This is partially documented here: <https://forum.flipperzero.one/t/qflipper-not-recognizing-device-2-devices-on-one-com-port-while-bluetooth-on-windows-is-turned-on/1910>, let us know if you require help with this
 
 
