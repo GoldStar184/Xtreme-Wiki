@@ -16,7 +16,7 @@ This should help you navigate this wiki, if not just let us know and we will hel
 <br><br><br>
 # FAQ:
 **1)** How do I change the manifest / disable levels?
-> Open qFlipper, go to `SD/Dolphin` and rename your `no_lvlup_manifest.txt` to `manifest.txt`
+> Open qFlipper, go to `SD/Dolphin` and rename your `no_lvl_up_manifest.txt` to `manifest.txt`
 
 **2)** How do I enable **SFW** mode?
 > From the Home screen (the one with the animations) hit the `Arrow UP` button, its gonna be right there for you to select it
