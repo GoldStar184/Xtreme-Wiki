@@ -206,7 +206,7 @@ New feature from Unleashed which we implemented
 
 # Sub-Ghz Remote
 ### Usage: 
-Click on the file you want to use, for example fun_eu,  now you can use the Arrow Keys and the enter key to send different signals saved on your flipper, without having to navigate to each file manually.
+Click on the file you want to use, for example fun_eu.txt,  now you can use the Arrow Keys and the enter key to send different signals saved on your flipper, without having to navigate to each file manually.
 
 ### Files:
 The files are located in /SD Card/subghz/unirf  
