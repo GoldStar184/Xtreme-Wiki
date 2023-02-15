@@ -189,10 +189,6 @@ Used if you don't know what frequency a remote operates on. Simply open it, I re
 ### Radio Settings:
 New feature from Unleashed which we implemented
 - Modue: Lets yoy select wether you want to use the internal or external cc1101.
-- Debug Pin: Lets you use the A7 pin for debugging your chip
-
-### Test:
-- Carrier: Displays information on your CC1101 chip
 
 ### Sub-Ghz FAQ:
 **What's the maximum range?**
@@ -518,3 +514,30 @@ there are a few things that immediately made the flipper important to me. the cu
 on top of that adding stuff to the GPIO makes it even more capable
 
 if you come in with high expectations you will be severely disappointed, is it worth 170$ to turn off a projector or make an intercom at CVS go crazy? No? then don't get it 
+
+# Keybinds
+## On the main menu:
+
+### Short press:
+
+- **Short select:** Opens the module menu
+
+- **Short arrow left:** Open the clock
+
+- **Short arrow right:** Shows the passport with lvls, etc..
+
+- **Short arrow up:** Shows the quick accessibility menu
+
+- **Short arrow down:** Opens the (file) Browser
+
+### Long press:
+
+- **Long select:** Skips the current animation
+
+- **Long arrow left:** Locks the flipper
+
+- **Long arrow right:** Battery status & About info
+
+- **Long arrow up:** Open primary favourite app
+
+- **Long arrow down:** Open secondary favourte app
