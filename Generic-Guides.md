@@ -32,7 +32,7 @@ https://github.com/ClaraCrazy/Flipper-Xtreme/releases
 Now there is two options. The easy one or the easy no brainer one.
 
 ### **The easy method:**
-Now use an application to unzip the file you just downloaded. (If you don't know how to unzip / use 7zip read this here: ((instert anchor to 7zip))
+Now use an application to unzip the file you just downloaded. (If you don't know how to unzip / use 7zip look into the 7zip section)
 * -> Extract to a Folder
 * -> Copy folder into update on the Flipper via qFlipper 
 **optional:** delete apps folder if you come from a different FW (SD Card/apps/)
@@ -66,7 +66,7 @@ Basically acts like a HID (HID = Human Interface Device) and pretends to be a ke
 
 But Flipper Zero's Bad USB provides you with some additional commands and features, such as the ALT+Numpad input method, SysRq command, and more.. Read up yourself if you are interested [here](https://docs.flipperzero.one/bad-usb "here")
 
-**DISCLAIMER:** The website will tell you that Bad USB only supports the US-Keyboard-Layout which is not true anymore! The Bad-USB was overwritten and now you can choose your own keyboard layout!! We'll get to that in a second. One really important mention would be that this section was written before we added the Bad KB app in V41 which added Bad BLE (Bluetooth Low Energy), mostly everything stays the same except you can now decide wether you want to use USB or BLE as your connection method. Here is the dedicated Bad KB section. ((insert anchor to Bad BLE here)). Read this first though as the setup stays the same.
+**DISCLAIMER:** The website will tell you that Bad USB only supports the US-Keyboard-Layout which is not true anymore! The Bad-USB was overwritten and now you can choose your own keyboard layout!! We'll get to that in a second. One really important mention would be that this section was written before we added the Bad KB app in V41 which added Bad BLE (Bluetooth Low Energy), mostly everything stays the same except you can now decide wether you want to use USB or BLE as your connection method. Here is the dedicated Bad KB section. Read this first though as the setup stays the same.
 
 Save your Ducky Scripts (.txt) to the /SD Card/badkb or make a folder or more than one inside the badusb folder to make it more manageable. If you work with a SD Card reader just create a folder like you would do in your OS. On the qFlipper head to SD Card/badkb/ and right click an empty space, you should be able to select New Folder.  You can give it a descriptive name, that's up to you. If you don't want to write all those files yourself, you can check out UberGuidoZ's Github. If you don't know him he is the man who has everything for the Flipper. I will probably mention him a few more times in this guide. Get your scripts [here](https://github.com/UberGuidoZ/Flipper/tree/main/BadUSB "here") 
 
