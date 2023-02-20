@@ -1,8 +1,8 @@
 ## What is this?
 
 This Page will walk you through the basics of:
-- Whats the Flipper Zero
-- Whats XFW / Xtreme
+- What is the Flipper Zero
+- What is XFW / Xtreme
   - What Apps do we include
 ----
 
@@ -11,14 +11,14 @@ Flipper Zero is a portable Tamagotchi-like multi-functional device developed for
 
 ----
 
-## What is XFW / Xtreme
-XFW, also known as Xtreme is the Firmware written by us. Its a relatively new Firmware that has already gained over two thousand users in the first three weeks of its existence. This is due to the fact that it includes virtually all possible applications, receives constant updates that are based on what the community wants, has no restrictions unlike most other Firmware for the Flipper Zero and because the developers try their best to create a thriving community.
+## XFW / Xtreme Firmware
+XFW, also known as Xtreme, is the Firmware written by us. Its a relatively new Firmware that has already gained over two thousand users in the first three weeks of its existence. This is due to the fact that it includes virtually all possible applications, receives constant updates that are based on what the community wants, has no restrictions unlike most other Firmware for the Flipper Zero and because the developers try their best to create a thriving community.
 
 For a full in-depth info on what the Firmware can do, please check the [Readme](https://github.com/ClaraCrazy/Flipper-Xtreme#xfw---xtreme-firmware-for-the-flipper-zero)
 
 ----
 
-## Included Apps:
+### Included Apps:
 <details>
 <summary>GPIO</summary>
 
