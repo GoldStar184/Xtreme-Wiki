@@ -1,8 +1,20 @@
 # Welcome to the Flipper-Xtreme wiki!
 
-This is the Homepage of our Wiki, here you will find an FAQ section and a few words from the Devs. Check out the sidebar for more! Also check out [Unleashed's documentation](https://github.com/DarkFlippers/unleashed-firmware/tree/dev/documentation), they have the most in-depth information on what Flipper Zero can do.
+This is the Homepage of our Wiki, here you will find some basic info on what the Flipper Zero is, what Xtreme Firmware is, an FAQ section and a few words from the Devs. Check out the sidebar for more! Also check out [Unleashed's documentation](https://github.com/DarkFlippers/unleashed-firmware/tree/dev/documentation), they have the most in-depth information on what Flipper Zero can do.
 
 If you have any questions, please join our [Discord](https://discord.gg/flipper-xtreme) and we will be more than happy to answer each and every one of your questions!
+
+<br>
+
+# Flipper Zero
+Flipper Zero is a portable Tamagotchi-like multi-functional device developed for interaction with access control systems. The device is able to read, copy, and emulate radio-frequency tags, radio remotes, and digital access keys. [Wikipedia](https://en.wikipedia.org/wiki/Flipper_Zero)
+
+<br>
+
+# XFW / Xtreme Firmware
+XFW, also known as Xtreme, is the Firmware written by us. Its a relatively new Firmware that has already gained over two thousand users in the first three weeks of its existence. This is due to the fact that it includes virtually all possible applications, receives constant updates that are based on what the community wants, has no restrictions unlike most other Firmware for the Flipper Zero and because the developers try their best to create a thriving community.
+
+For a full in-depth info on what the Firmware can do, please check the [Readme](https://github.com/ClaraCrazy/Flipper-Xtreme#xfw---xtreme-firmware-for-the-flipper-zero)
 
 <br>
 
