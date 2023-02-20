@@ -1,19 +1,11 @@
 # Welcome to the Flipper-Xtreme wiki!
 
-This is the heart of the Wiki page, here you will find a short explanation for what the individual pages are about, an FAQ section and a few words from the Devs.
+This is the Homepage of our Wiki, here you will find an FAQ section and a few words from the Devs. Check out the sidebar for more! Also check out [Unleashed's documentation](https://github.com/DarkFlippers/unleashed-firmware/tree/dev/documentation), they have the most in-depth information on what Flipper Zero can do.
 
 If you have any questions, please join our [Discord](https://discord.gg/flipper-xtreme) and we will be more than happy to answer each and every one of your questions!
-<br><br>
-# Sub-pages:
 
-| Number | Usage |
----------|-----------
-| 0.X | Basic overview of the Flipper & XFW |
-| 1.X | Simple explanation of the different formats used for Flipper files. Helpful when making your own or debugging broken ones |
-| 2.X | More in-depth nerd talk about the various systems. |
+<br>
 
-This should help you navigate this wiki, if not just let us know and we will help you out!
-<br><br><br>
 # FAQ:
 **1)** How do I access Xtreme Firmware features and settings?
 > From the Home screen (the one with the animations) hit the `Arrow UP` button, go into `Xtreme Settings`, and customize to your heart's content!
@@ -39,8 +31,8 @@ This should help you navigate this wiki, if not just let us know and we will hel
 **8)** After an Update / Randomly one day, qFlipper says something like *permission denied*.. Whats going on?
 > Windows is going on... Essentially, either two devices use your COM port qFlipper expects, or Windows assigned your Flipper a completely different COM port. This is partially documented here: <https://forum.flipperzero.one/t/qflipper-not-recognizing-device-2-devices-on-one-com-port-while-bluetooth-on-windows-is-turned-on/1910>, let us know if you require help with this
 
+<br>
 
-<br><br><br>
 # Our words:
 
 - A huge thank you, obviously. This FW turned from a joke to a massive project with over 1k Users in **a week**. You guys are just mad, lol. We got many things planned and are working on them every day. We are always open to suggestions and interested in implementing what the community wants, so make sure to let us know.
