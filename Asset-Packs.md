@@ -2,6 +2,8 @@
 
 Asset Packs are an exclusive feature of Xtreme Firmware that allows you to load custom Animation and Icon sets without recompiling the firmware or messing with manifest.txt files (as a user). Here you can find info on how to install Asset Packs and also how to make your own.
 
+<br>
+
 ## How to install Asset Packs?
 
 Installing Asset Packs is quite easy and straightforward. First, make sure you're on an updated version of XFW before you begin, Asset Packs were added in v40! Then, find some packs to install (we have a channel in our discord where you can find some) or make your own (see below). Once you have some packs to install:
@@ -14,9 +16,15 @@ Installing Asset Packs is quite easy and straightforward. First, make sure you'r
 
 - Now simply open the Xtreme Settings app (from the home screen press `Arrow UP` and then `Xtreme Settings`) and select the asset pack you want. When you back out, Flipper will restart and your animations and icons will use the ones from the selected pack!
 
+<br>
+
+<br>
+
 ## How do I make an Asset Pack?
 
 Before we begin, it's better to understand a little on how they work. Asset Packs are made of 2 parts: Anims and Icons.
+
+<br>
 
 ### Animations
 
@@ -49,6 +57,8 @@ Again, this is all fairly standard Flipper animation stuff, there are plenty of 
 
 - They go in `SD/dolphin_custom/PackName/Anims` instead of `SD/dolphin`.
 - XFW has up to level 30, so make sure to update your manifest.txt accordingly!
+
+<br>
 
 ### Icons
 
@@ -139,6 +149,10 @@ Icons/
         |-Connected_62x31.bmx
         |-Error_62x31.bmx
 ```
+
+<br>
+
+<br>
 
 ### Cool, I read all that, but how do I make one???
 
