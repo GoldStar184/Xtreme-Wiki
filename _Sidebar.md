@@ -6,7 +6,7 @@
 
 <h2><details><summary>File Formats</summary><h5><ul>
   <li><a href="Asset-Packs">Asset Packs</a></li>
-  <li><a href="BadUSB">BadUSB</a></li>
+  <li><a href="BadKB">BadKB</a></li>
   <li><a href="iButton">iButton</a></li>
   <li><a href="Infrared">Infrared</a></li>
   <li><a href="NFC">NFC</a></li>
