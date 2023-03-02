@@ -1,6 +1,6 @@
 # Welcome to the Flipper-Xtreme wiki!
 
-This is the Homepage of our Wiki, here you will find some basic info on what the Flipper Zero is, what Xtreme Firmware is, an FAQ section, what apps we include and a few words from the Devs. Check out the sidebar for more! Also check out [Unleashed's documentation](https://github.com/DarkFlippers/unleashed-firmware/tree/dev/documentation), they have the most in-depth information on what Flipper Zero can do.
+This is the Homepage of our Wiki, here you will find some basic info on what the Flipper Zero is, what Xtreme Firmware is, an FAQ section, what apps we include and a few words from the Devs. Check out the sidebar for more detailed information!
 
 If you have any questions, please join our [Discord](https://discord.gg/flipper-xtreme) and we will be more than happy to answer each and every one of your questions!
 
