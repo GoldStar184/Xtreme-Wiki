@@ -1,5 +1,4 @@
 # Flipper-Xtreme Wiki
-<br>
 
 ## [Home](Home)
 
@@ -28,4 +27,3 @@
 </ul></details></h2>
 
 ## [Key Combos](Key-Combos)
-<br>
