@@ -4,6 +4,8 @@
 
 ## [Generic Guides](Generic-Guides)
 
+<br>
+
 <details><summary><h2>File Formats</h2></summary>
-  <h2><a href="File-Formats/Asset-Packs">Asset Packs</a></h2>
+  <h3><a href="File-Formats/Asset-Packs">Asset Packs</a></h3>
 </details>
