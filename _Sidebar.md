@@ -1,8 +1,12 @@
 # Flipper-Xtreme Wiki
 
-## [Home](Home)
+<h3><a href="Home">Home</a></h3>
 
-## [Generic Guides](Generic-Guides)
+---
+
+<h3><a href="Generic-Guides">Generic Guides</a></h3>
+
+---
 
 <details><summary><h3>File Formats</h3></summary><ul>
 <li><h3><a href="Asset-Packs">Asset Packs</a></h3></li>
