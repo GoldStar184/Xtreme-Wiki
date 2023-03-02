@@ -1,6 +1,6 @@
 # Welcome to the Flipper-Xtreme wiki!
 
-This is the Homepage of our Wiki, here you will find some basic info on what the Flipper Zero is, what Xtreme Firmware is, an FAQ section, what apps we include and a few words from the Devs. Check out the sidebar for more detailed information!
+This is the Homepage of our Wiki, here you will find some basic info on what the Flipper Zero is, what Xtreme Firmware is, an FAQ section, what apps we include and a few words from the Devs. Check out the sidebar for more detailed information! The documentation you find in this wiki is either made by us, or by the OFW team / UL team / the community at large and then adapted by us, we wanted to have an organized place for most documentation, so credit and a huge thanks goes to the original authors/contributors!
 
 If you have any questions, please join our [Discord](https://discord.gg/flipper-xtreme) and we will be more than happy to answer each and every one of your questions!
 
