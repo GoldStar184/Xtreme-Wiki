@@ -1,6 +1,6 @@
 # Flipper-Xtreme Wiki
 
-<h2><a href="Home">Home</a><ul></ul><dl></dl><ol></ol></h2>
+<h2><a href="Home">Home</a><ul></ul><dl></dl></h2>
 
 <h2><a href="Generic-Guides">Generic Guides</a><ul></ul></h2>
 
