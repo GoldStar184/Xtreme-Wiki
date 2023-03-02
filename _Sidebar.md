@@ -1,8 +1,8 @@
 # Flipper-Xtreme Wiki
 
-<h2><a href="Home">Home</a><ul></ul></h2>
+<h2><a href="Home">Home</a><dl></dl></h2>
 
-<h2><a href="Generic-Guides">Generic Guides</a><ul></ul></h2>
+<h2><a href="Generic-Guides">Generic Guides</a><dl></dl></h2>
 
 <h2><details><summary>File Formats</summary><h5><ul>
   <li><a href="Asset-Packs">Asset Packs</a></li>
@@ -26,4 +26,4 @@
   <li><a href="Unit-Tests">Unit Tests</a></li>
 </ul></h5></details></h2>
 
-<h2><a href="Key-Combos">Key Combos</a><ul></ul></h2>
+<h2><a href="Key-Combos">Key Combos</a><dl></dl></h2>
