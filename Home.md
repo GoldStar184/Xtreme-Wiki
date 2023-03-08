@@ -80,10 +80,6 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 
 - [[BH1750] Lightmeter](https://github.com/oleksiikutuzov/flipperzero-lightmeter)
 - [[BMI160] Air Mouse](https://github.com/ginkage/FlippAirMouse/)
-- [[ESP32] WiFi Marauder](https://github.com/0xchocolate/flipperzero-firmware-with-wifi-marauder-companion)
-- [[ESP8266] Deauther](https://github.com/Timmotools/flipperzero_esp8266_deautherv2)
-- [[ESP8266] IFTTT Virtual Button](https://github.com/Ferrazzi/FlipperZero_IFTTT_Virtual_Button)
-- [ESP8266] WiFi (Deauther) v2
 - [[GPIO] Flashlight](https://github.com/xMasterX/flipper-flashlight)
 - [GPIO] Geiger Counter
 - [GPIO] Intervalometer
@@ -98,10 +94,11 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 - [[NRF24] Sniffer](https://github.com/mothball187/flipperzero-nrf24/tree/main/nrfsniff)
 - [[RC2014] ColecoVision](https://github.com/ezod/flipperzero-rc2014-coleco)
 - [GPIO] Signal Generator
+- [SPI] Mem Manager
+- [SWD] Probe
 - [[UART] Echo](https://github.com/flipperdevices/flipperzero-firmware/pull/831)
 - [UART] Terminal
 - [GPIO] Unitemp
-- [WiFi] Scanner
 - [[GPIO] Wii EC Analyser](https://github.com/csBlueChip/FlipperZero_WiiEC)
 
 </details>
@@ -114,7 +111,6 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 - Brainfuck
 - [Caesar Cipher](https://github.com/panki27/caesar-cipher)
 - Calculator - In house / notIntense
-- [Clock](https://github.com/kowalski7cc/flipperzero-firmware/tree/clock-v1) / In house
 - [Countdown Timer](https://github.com/0w0mewo/fpz_cntdown_timer)
 - [Counter](https://github.com/Krulknul/dolphin-counter)
 - [Hex Viewer](https://github.com/QtRoS/flipper-zero-hex-viewer)
@@ -145,6 +141,18 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 </details>
 
 <details>
+<summary>Sub-GHz</summary>
+
+- [POCSAG Pager](https://github.com/xMasterX/flipper-pager)
+- [ProtoView](https://github.com/antirez/protoview)
+- [Spectrum Analyzer](https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer)
+- [Sub-GHz Bruteforcer](https://github.com/derskythe/flipperzero-subbrute/tree/master)
+- Sub-GHz Playlist
+- Weather Station
+
+</details>
+
+<details>
 <summary>Tools</summary>
 
 - [Bluetooth Remote](https://github.com/flipperdevices/flipperzero-firmware/pull/1330)
@@ -155,17 +163,22 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 - [iButton Fuzzer](https://github.com/DarkFlippers/unleashed-firmware)
 - [NFC Magic](https://github.com/flipperdevices/flipperzero-firmware/pull/1966)
 - [Password Generator](https://github.com/anakod/flipper_passgen)
-- [PicoPass Reader](https://github.com/flipperdevices/flipperzero-firmware/pull/1366)
-- [POCSAG Pager](https://github.com/xMasterX/flipper-pager)
+- [PicoPass](https://github.com/flipperdevices/flipperzero-firmware/pull/1366)
 - Pomodoro
-- [ProtoView](https://github.com/antirez/protoview)
 - QR Code
 - [RFID Fuzzer](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/pull/245)
-- [Spectrum Analyzer](https://github.com/jolcese/flipperzero-firmware/tree/spectrum/applications/spectrum_analyzer)
-- SPI Mem Manager
-- [Sub-Ghz Bruteforcer](https://github.com/derskythe/flipperzero-subbrute/tree/master)
 - [USB Remote](https://github.com/flipperdevices/flipperzero-firmware/pull/1330)
-- Weather Station
+
+</details>
+
+<details>
+<summary>WiFi</summary>
+
+- [[ESP32] WiFi Marauder](https://github.com/0xchocolate/flipperzero-firmware-with-wifi-marauder-companion)
+- [[ESP8266] Deauther](https://github.com/Timmotools/flipperzero_esp8266_deautherv2)
+- [[ESP8266] IFTTT Virtual Button](https://github.com/Ferrazzi/FlipperZero_IFTTT_Virtual_Button)
+- [ESP8266] WiFi (Deauther) v2
+- [WiFi] Scanner
 
 </details>
 
