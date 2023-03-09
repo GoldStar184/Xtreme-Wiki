@@ -50,19 +50,19 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 <details>
 <summary>Games</summary>
 
-- [2048](https://github.com/eugene-kirzhanov/flipper-zero-2048-game)
 - [Arkanoid](https://github.com/DarkFlippers/unleashed-firmware/tree/dev/applications/plugins/arkanoid)
 - [Asteroids](https://github.com/SimplyMinimal/FlipperZero-Asteroids)
 - [BlackJack](https://github.com/teeebor/flipper_games)
-- Multi Dice - In-house
-- [Doom](https://github.com/p4nic4ttack/doom-flipper-zero/)
+- [DOOM](https://github.com/p4nic4ttack/doom-flipper-zero/)
 - [Flappy Bird](https://github.com/DroomOne/flipperzero-firmware/tree/dev/applications/flappy_bird)
 - [Pong](https://github.com/nmrr/flipperzero-pong)
 - [Game 15](https://github.com/x27/flipperzero-game15)
+- [2048](https://github.com/eugene-kirzhanov/flipper-zero-2048-game)
 - [Game of Life](https://github.com/tgxn/flipperzero-firmware/blob/dev/applications/game_of_life/game_of_life.c)
 - Heap Defence - Author Unknown
 - [Mandelbrot Set](https://github.com/Possibly-Matt/flipperzero-firmware-wPlugins)
 - [Minesweeper](https://github.com/panki27/minesweeper)
+- Multi Dice - In-house
 - [Snake Game](https://github.com/flipperdevices/flipperzero-firmware/tree/dev/applications/plugins/snake_game)
 - [Solitaire](https://github.com/teeebor/flipper_games)
 - [Tamagotchi](https://github.com/DroomOne/flipperzero-tamagotch-p1)
@@ -78,21 +78,22 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 <details>
 <summary>GPIO</summary>
 
-- [[BH1750] Lightmeter](https://github.com/oleksiikutuzov/flipperzero-lightmeter)
 - [[BMI160] Air Mouse](https://github.com/ginkage/FlippAirMouse/)
+- [[RC2014] ColecoVision](https://github.com/ezod/flipperzero-rc2014-coleco)
+- [[GPIO] DAP Link](https://github.com/flipperdevices/flipperzero-firmware/pull/1897)
 - [[GPIO] Flashlight](https://github.com/xMasterX/flipper-flashlight)
 - [GPIO] Geiger Counter
-- [GPIO] Intervalometer
 - [[GPIO] Reader (Aurelic)](https://github.com/aureli1c/flipperzero_GPIO_read)
 - [[GPIO] Reader (biotinker)](https://github.com/biotinker/flipperzero-gpioreader)
 - [[GPIO] Sentry Safe](https://github.com/H4ckd4ddy/flipperzero-sentry-safe-plugin)
+- [GPIO] Timelapse
+- [[NMEA] GPS](https://github.com/ezod/flipperzero-gps)
 - [[HC-SR] Dist. Sensor](https://github.com/Sanqui/flipperzero-firmware/tree/59656ca5fb644e0d4484259986b86a0b963f323d/applications/hc_sr04)
 - [[GPIO] i2c Tools](https://github.com/NaejEL/flipperzero-i2ctools)
-- [[NMEA] GPS](https://github.com/ezod/flipperzero-gps)
+- [[BH1750] Lightmeter](https://github.com/oleksiikutuzov/flipperzero-lightmeter)
 - [[NRF24] Mouse Jacker](https://github.com/mothball187/flipperzero-nrf24/tree/main/mousejacker)
 - [[NRF24] Scanner](https://github.com/vad7/nrf24scan)
 - [[NRF24] Sniffer](https://github.com/mothball187/flipperzero-nrf24/tree/main/nrfsniff)
-- [[RC2014] ColecoVision](https://github.com/ezod/flipperzero-rc2014-coleco)
 - [GPIO] Signal Generator
 - [SPI] Mem Manager
 - [SWD] Probe
@@ -106,7 +107,6 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 <details>
 <summary>Misc</summary>
 
-- [Authenticator](https://github.com/akopachov/flipper-zero_authenticator)
 - [Barcode Generator](https://github.com/McAzzaMan/flipperzero-firmware/tree/UPC-A_Barcode_Generator/applications/barcode_generator)
 - Brainfuck
 - [Caesar Cipher](https://github.com/panki27/caesar-cipher)
@@ -121,6 +121,7 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 - [Paint](https://github.com/n-o-T-I-n-s-a-n-e)
 - Rubik's Cube Scrambler
 - [Text Viewer](https://github.com/kowalski7cc/flipper-zero-text-viewer)
+- [Authenticator](https://github.com/akopachov/flipper-zero_authenticator)
 - [USB HID Autofire](https://github.com/pbek/usb_hid_autofire)
 
 </details>
@@ -155,19 +156,18 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 <details>
 <summary>Tools</summary>
 
-- [Bluetooth Remote](https://github.com/flipperdevices/flipperzero-firmware/pull/1330)
-- [CLI-GUI Bridge](https://github.com/ranchordo/flipperzero-cli-bridge)
-- [DAP Link](https://github.com/flipperdevices/flipperzero-firmware/pull/1897)
+- [CLI (subghz chat)](https://github.com/ranchordo/flipperzero-cli-bridge)
 - [Dolphin Backup & Restorer](https://github.com/flipperdevices/flipperzero-firmware/pull/1384)
 - [DTMF Dolphin](https://github.com/litui/dtmf_dolphin)
+- Pomodoro Timer
+- [Bluetooth Remote](https://github.com/flipperdevices/flipperzero-firmware/pull/1330)
+- [USB Remote](https://github.com/flipperdevices/flipperzero-firmware/pull/1330)
 - [iButton Fuzzer](https://github.com/DarkFlippers/unleashed-firmware)
 - [NFC Magic](https://github.com/flipperdevices/flipperzero-firmware/pull/1966)
 - [Password Generator](https://github.com/anakod/flipper_passgen)
 - [PicoPass](https://github.com/flipperdevices/flipperzero-firmware/pull/1366)
-- Pomodoro
 - QR Code
 - [RFID Fuzzer](https://github.com/RogueMaster/flipperzero-firmware-wPlugins/pull/245)
-- [USB Remote](https://github.com/flipperdevices/flipperzero-firmware/pull/1330)
 
 </details>
 
