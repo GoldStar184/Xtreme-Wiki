@@ -91,14 +91,18 @@ V41 added a new feature called BadBLE (Bluetooth Low Energy) which is supported 
 When selected a BadUSB ( now called BadKB ) script, you can press **Left Arrow** to go into the configuration.
 
 ### Config:
-- Keyboard Layout: Lets you change your keyboard layout for the keyboard layout used in your country.
+
 - Connection:  Select your connection mode. ( Default = USB )
    [ USB ]  Standard BadUSB connection mode. See BadUSB section!
    [  BT  ]  Newly added BT ( Bluetooth ) mode. Lets you run BadUSB scripts on any device supporting HID inputs via Bluetooth Low Energy Human Interface Devices. ( For not so smart folks: basically bluetooth keyboard )
+
+- Remember: Toggle on or off whether devices should be allowed to reconnect to your flipper without re-pairing with the flipper
+
+- Keyboard Layout: Lets you change your keyboard layout for the keyboard layout used in your country.
    
- - -> BT device name: Lets you set the device's Bluetooth name. ( What shows up when selecting devices in your bluetooth settings: Like JBL, Dime Black, AirPodsPro, HandsFree, etc.. )
+- BT device name: Lets you set the device's Bluetooth name. ( What shows up when selecting devices in your bluetooth settings: Like JBL, Dime Black, AirPodsPro, HandsFree, etc.. )
  
- - -> BT MAC address: Lets you set your device's Bluetooth MAC address. If you want your device to be recognizes as a new device, you will need to change its MAC address. The phone ( or whatever you want it to pair with ) will think its a new device due to changing the MAC address. 
+- BT MAC address: Lets you set your device's Bluetooth MAC address. If you want your device to be recognizes as a new device, you will need to change its MAC address. The phone ( or whatever you want it to pair with ) will think its a new device due to changing the MAC address. This option will only be shown if the Remember Option is turned off since Remember needs you to have the same MAC address all the time.
  
 # iButton
 I actually never used iButton because here where I live because I never encountered one so far. Your flipper has [spring loaded pogo pins](https://en.wikipedia.org/wiki/Pogo_pin "spring loaded pogo pins") on the back to connect it to the iButton / the iButton reader. From there you can copy the iButton. Supported iButtons protocols are these: Dallas Cryfal and Metakom. Using the pogo pins you can save and emulate them, read more about the usage etc. on [here](https://docs.flipperzero.one/ibutton "here") 
@@ -477,7 +481,7 @@ You can find the Xtreme Settings by pressing the **Arrow Up** in the menu. Or by
 - Lets you default between USB and BT for the Bad KB app ( you can still change the mode in the config of the the Bad KB app, this is just the defualt for when you open it. )
 
 #### BadBT Remember:
-- Toggle on or off wether devices should be allowed to reconnect to your flipper without re-pairing with the flipper
+- Toggle on or off whether devices should be allowed to reconnect to your flipper without re-pairing with the flipper
 
 #### SubGHz Frequencies:
 Allows you to add custom frequencies to Sub-GHz!
