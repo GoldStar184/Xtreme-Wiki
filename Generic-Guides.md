@@ -31,27 +31,15 @@ https://github.com/ClaraCrazy/Flipper-Xtreme/releases
 
 Now there is two options. The easy one or the easy no brainer one.
 
-### **The easy method:**
+### **The recommended method:**
 Now use an application to unzip the file you just downloaded. (If you don't know how to unzip / use 7zip look into the 7zip section)
 * -> Extract to a Folder
 * -> Copy folder into update on the Flipper via qFlipper 
-**optional:** delete apps folder if you come from a different FW (SD Card/apps/)
-* -> press key Down on the flipper menu, navigate to the update folder via the Browser (on the main menu press **Arrow Down**), select the folder which you copied over, select update ->(Run in App)
-
-**When updating** just repeat everything except the deletion of the apps folder (you don't have to do it when updating)
-
-### **The easy no brainer method:**
-Download the .tgz file from the latest Release.
-* -> Connect your flipper to your pc and open qFlipper
-**optional:** delete apps folder if you come from a different FW (SD Card/apps/)
-* -> In qFlipper select _install from file_ (bottom right)
-* -> Let your flipper do its thing and you're done.
-
-**When updating** just repeat everything except the deletion of the apps folder (you don't have to do it when updating)
-
+* -> delete the apps folder (SD Card/apps/)
+* -> on the main menu press **Arrow Down**, navigate to the update folder via the Browser, select the folder which you copied over, select update ->(Run in App)
 
 ### Installation FAQ: 
-**(easy method) Does the folder which I copy over have to have a specific name?**
+**Does the folder which I copy over have to have a specific name?**
 > A: No, you can call it whatever.. you can copy the name of the .zip file or just invent something! Just don't copy the .zip archive.
 
 <br/>
@@ -59,6 +47,10 @@ Download the .tgz file from the latest Release.
 **While it's flashing my screen and LED starts to blink, what do I do?**
 > A: We have had this happen before, it's some bug which we haven't figured out yet, but it shouldn't affect the installation so just wait it out it should go away in a few seconds
 
+<br/>
+
+**ERROR: Cannot find update directory, what do I do?**
+> A: First off, if you use the "install from file" option on qFlipper, don't. Delete all the contents inside the updates folder, or if the folder does not exist at all, create it. From there just follow the install method. The problem is that qFlipper ain't flippin it, so ofc things don't work.
 
 # Bad KB
 ### Preparation-Phase:
