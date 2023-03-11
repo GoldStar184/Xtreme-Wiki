@@ -5,7 +5,7 @@ So, I basically made a Write-Up together with taimtam?#4621 of the most Modules 
 We also cover things about the Xtreme Firmware, since our opinion is that it's the best firmware currently out there for the flipper, so far we did not find any Firmware as well maintained and stable as this one.
 
 **IMPORTANT:**
-If you have any questions or problems which are not covered in this guide, I would still love to hear about it and help you. Please join our discord server and ping one of the staff members (or me) or just message me directly: Dyiing#1682
+If you have any questions or problems which are not covered in this guide, I would still love to hear about it and help you. Please join our discord server and ping one of the staff members (or me) or just message me directly: whois.hoeless#1682
 Also, if there is something wrong in my guide please report it to me or give me feedback, I only can make this guide off of my current knowledge about the Flipper. (And I can't know everything under any circumstance so if you find anything that's wrong just report it..)
 
 Here are some **Terms** which are commonly used on the server so you know what people talk about:
@@ -64,16 +64,16 @@ Download the .tgz file from the latest Release.
 ### Preparation-Phase:
 Basically acts like a HID (HID = Human Interface Device) and pretends to be a keyboard. You can write your own files using the Ducky Script Language 1.0 [read up on it here](https://web.archive.org/web/20220816200129/http://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript "read up on it here")
 
-But Flipper Zero's Bad USB provides you with some additional commands and features, such as the ALT+Numpad input method, SysRq command, and more.. Read up yourself if you are interested [here](https://docs.flipperzero.one/bad-usb "here")
+But Flipper Zero's Bad USB provides you with some additional commands and features, such as the ALT+Numpad input method, SysRq command, and more.. Read up yourself if you are interested [here](https://docs.flipperzero.one/bad-usb "here"). 
 
-**DISCLAIMER:** The website will tell you that Bad USB only supports the US-Keyboard-Layout which is not true anymore! The Bad-USB was overwritten and now you can choose your own keyboard layout!! We'll get to that in a second. One really important mention would be that this section was written before we added the Bad KB app in V41 which added Bad BLE (Bluetooth Low Energy), mostly everything stays the same except you can now decide wether you want to use USB or BLE as your connection method. Here is the dedicated Bad KB section. Read this first though as the setup stays the same.
+**DISCLAIMER:** The website will tell you that BadUSB only supports the US-Keyboard-Layout which is not true anymore! The Bad-USB was overwritten and now you can choose your own keyboard layout!! We'll get to that in a second. One really important mention would be that this section was written before we added the BadKB app in V41 which added Bad BLE (Bluetooth Low Energy), mostly everything stays the same except you can now decide wether you want to use USB or BLE as your connection method. Here is the dedicated Bad KB section. Read this first though as the setup stays the same.
 
 Save your Ducky Scripts (.txt) to the /SD Card/badkb or make a folder or more than one inside the badusb folder to make it more manageable. If you work with a SD Card reader just create a folder like you would do in your OS. On the qFlipper head to SD Card/badkb/ and right click an empty space, you should be able to select New Folder.  You can give it a descriptive name, that's up to you. If you don't want to write all those files yourself, you can check out UberGuidoZ's Github. If you don't know him he is the man who has everything for the Flipper. I will probably mention him a few more times in this guide. Get your scripts [here](https://github.com/UberGuidoZ/Flipper/tree/main/BadUSB "here") 
 
 I will warn you tho, look at the files which you want to use, in some of them you need to add a pastebin or dopbox link to download malware to the PC. So just edit the .txt files. Some might be for Linux but most are for Windows. I'm sure you will find something you like :)
 
 ### Execution:
-Open the Bad KB app on your flipper, navigate to a payload (commonly used name for the Bad KB file to be executed) and select it.
+Open the BadKB app on your flipper, navigate to a payload (commonly used name for the BadKB file to be executed) and select it.
 Before you select the file, check that your Flipper is not connected to the PC yet.
 
 Once you've selected the file you can press **Arrow Left** to go into the config to select a new Keyboard Layout or the connection method. (The BT part will be covered in the BT section as I mentioned before). This explains itself.
@@ -84,7 +84,7 @@ Now you will have 2 options:
 1. Just does what you would think and run the script when you press start.
 2. on the other hand will run your selected script as soon as the Flipper gets connected.
 
-### Bad-USB FAQ:
+### Bad-KB FAQ:
 **My flipper ran my scripts a few times but now when I connect it it doesn't run anymore**
 > A: I encountered the same issue but I never really searched for the reason. My best guess is that windows is pissed off because you connect and disconnect a HID device all the time but a simple PC restart should get you going again. Usually not a big problem.
 
@@ -93,16 +93,16 @@ Now you will have 2 options:
 **The script I executed broke my windows, what do I do?**
 > A: Maybe don't run a file called Windows wants the D (actual script name, you find it on Uber's Github) on your windows machine. If you aren't careful with what you do we can't help you.
 
-# Bad BT / KB
-V41 added a new feature called Bad BLE (Bluetooth Low Energy) which is supported by the flipper natively. It also renamed the Bad USB application to Bad KB (Keyboard). The USB connection mode is left unchanged, it works the same as the old Bad USB application therefore the old Bad USB section will stay with no changes. 
+# BadBT / KB
+V41 added a new feature called BadBLE (Bluetooth Low Energy) which is supported by the flipper natively. It also renamed the BadUSB application to BadKB (Keyboard). The USB connection mode is left unchanged, it works the same as the old BadUSB application therefore the old BadUSB section will stay with no changes. If for some reason you need the pin while connecting, it now shows on the screen when the device tries to connect to the flipper via BT.
 
-When selected a Bad USB ( now called Bad KB ) script, you can press **Left Arrow** to go into the configuration.
+When selected a BadUSB ( now called BadKB ) script, you can press **Left Arrow** to go into the configuration.
 
 ### Config:
 - Keyboard Layout: Lets you change your keyboard layout for the keyboard layout used in your country.
 - Connection:  Select your connection mode. ( Default = USB )
-   [ USB ]  Standard Bad USB connection mode. See Bad USB section!
-   [  BT  ]  Newly added BT ( Bluetooth ) mode. Lets you run Bad USB scripts on any device supporting HID inputs via Bluetooth Low Energy Human Interface Devices. ( For not so smart folks: basically bluetooth keyboard )
+   [ USB ]  Standard BadUSB connection mode. See BadUSB section!
+   [  BT  ]  Newly added BT ( Bluetooth ) mode. Lets you run BadUSB scripts on any device supporting HID inputs via Bluetooth Low Energy Human Interface Devices. ( For not so smart folks: basically bluetooth keyboard )
    
  - -> BT device name: Lets you set the device's Bluetooth name. ( What shows up when selecting devices in your bluetooth settings: Like JBL, Dime Black, AirPodsPro, HandsFree, etc.. )
  
@@ -447,15 +447,14 @@ Here is a nice video explaining [how bruteforcing Sub-Ghz signals actually works
 # Xtreme Firmware
 With the new V40 update of the Xtreme Firmware, we got introduced to a lot of changes in the animation system, aswell as a new Application called Xtreme Settings.
 
-You can find the Xtreme Settings by pressing the **Arrow Up** in the menu.
+You can find the Xtreme Settings by pressing the **Arrow Up** in the menu. Or by selecting the Xtreme Settings app from the main menu.
 
-#### Base Graphics:
+## Graphics:
+#### Asset Pack:
 - SFW:     Change all graphics to the default flipper animations (SFW)
 - NSFW:  Change all graphics to Clara's NSFW animations
 - WatchDogs: Change all graphics to Willy's WD animations
-
-#### Asset Pack:
-- Lets you choose an asset pack. Add your own to: /SD Card/dolphin_custom/asset_name ([look into the docs](https://github.com/ClaraCrazy/Flipper-Xtreme/wiki/1.-File-Formats#how-to-install-asset-packs "look into the docs"))
+- Other: Other animations which you installed via our [Asset pack feature](https://github.com/ClaraCrazy/Flipper-Xtreme/wiki/Asset-Packs "Asset pack feature")
 
 #### Anim Speed:
 - Change the speed of your animations from 25% up to 300%. Default = 100%
@@ -466,7 +465,7 @@ You can find the Xtreme Settings by pressing the **Arrow Up** in the menu.
 #### Unlock Anims:
 - Acts like an unlock all -> Unlock all animations without a lvl requirement, bypasses the mood requirement aswell. Default = OFF
 
-### = Status Bar =
+## Status Bar: 
 
 #### Battery Icon:
 - Customize the style of your battery. Options: OFF (disable battery), Bar, %, Inv. %, Retro3, Retro5, Bar %.
@@ -480,22 +479,67 @@ You can find the Xtreme Settings by pressing the **Arrow Up** in the menu.
 #### Bar Background: 
 - Lets you toggle on and off the Bar Background
 
-### = Protocols =
+## Protocols:
 
-#### Bad KB Mode:
+#### BadKB Mode:
 - Lets you default between USB and BT for the Bad KB app ( you can still change the mode in the config of the the Bad KB app, this is just the defualt for when you open it. )
+
+#### BadBT Remember:
+- Toggle on or off wether devices should be allowed to reconnect to your flipper without re-pairing with the flipper
+
+#### SubGHz Frequencies:
+Allows you to add custom frequencies to Sub-GHz!
+##### Static Frequencies:
+- Static Freq: Shows what custom frequency is selected ( needed for the Delete button below )
+- Delete Static Freq: Deletes the current selected custom frequency ( look at the Static Freq list above )
+- Add Static Freq: Lets you add a custom static frequency.  
+
+##### Hopper Frequencies:
+- Hopper Freq: Shows what custom frequency is selected ( needed for the Delete button below )
+- Delete Hopper Freq: Deletes the current selected custom frequency ( look at the Hopper Freq list above )
+- Add Hopper Freq: Lets you add a custom hopper frequency.  
+
 #### SubGhz Extend:
 - Lets you set 'dangerous' frequencies. Just kidding, they say that for legal bullshit, both antenna and the chip are built to be able to operate at these frequencies. It's just that the default one's are for legal public usage. 
 
 #### SubGhz Bypass:
 - Lets you bypass your country's frequency restrictions. Unlocks all 'safe' / semi legal frequencies
 
-### = Misc =
-#### Sort Dirs First:
-- Forces your flipper to sort dirs before files and put the dirs above the files
+### Dolphin 
 
 #### XP Level:
 - Lets you set your own XP level. Lvl 1 - 30. **Lvl 30 = Max Lvl.**
+
+#### Butthurt Timer:
+- Lets you set the Butthurt time (interval) in which the flipper's mood will change due to you not actively using it. Options: OFF, 30 minutes, 1 hour, 2 hours, 4 hours, 6 hours, 8 hours, 12 hours, 24 hours, 48 hours. Default = 12 hours
+
+### Misc 
+#### Sort Dirs First:
+- Forces your flipper to sort dirs before files and put the dirs above the files
+
+#### Change Device Name
+- Changes the name of your flipper
+
+### Experimental Options:
+
+#### Dark Mode: 
+- Inverts all the colors on your flipper forcing it to make a "darkmode"
+
+#### Left Handed:
+- Flips the screen of the flipper and inverts all inputs
+
+# Flipper Keyboard
+
+The keyboard on the flipper is used to handle certain inputs on the flipper itself ( to give a file a name while saving or changing your flippers name, ... ) and since we have reworked some parts of the keyboard I would just go over the changes in here so people recognize the changes and don't get confused. 
+
+#### Hold enter on a key:
+- Holding enter on a key will change the capitalisation to the opposite of the displayed capitalisation
+
+#### Hold backspace key:
+- Holding the backspace key finally keeps on deleting so you don't have to spam-click it
+
+#### Secondary symbol keyboard:
+- On the bottom left of the keyboard is a button to switch to a secondary keyboard with symbols. 
 
 # 7zip
 Download 7zip from their [offical website](https://www.7-zip.org/ "offical website").
@@ -513,7 +557,7 @@ in computer systems, this is to identify weak spots in defenses that attackers c
 there are a few things that immediately made the flipper important to me. the customizability, if you know how to code then the FZ has infinite possibilities
 on top of that adding stuff to the GPIO makes it even more capable
 
-if you come in with high expectations you will be severely disappointed, is it worth 170$ to turn off a projector or make an intercom at CVS go crazy? No? then don't get it 
+if you come in with high expectations you will be severely disappointed, is it worth 170$ to turn off a projector or make an intercom at CVS go crazy? No? then don't get it. 
 
 # Keybinds
 ## On the main menu:
