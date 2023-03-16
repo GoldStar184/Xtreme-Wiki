@@ -29,8 +29,6 @@ https://github.com/ClaraCrazy/Flipper-Xtreme/releases
 
 **DO NOT DOWNLOAD THE SOURCE CODE ONLY THE RELEASES!!**
 
-Now there is two options. The easy one or the easy no brainer one.
-
 ### **The recommended method:**
 Now use an application to unzip the file you just downloaded. (If you don't know how to unzip / use 7zip look into the 7zip section)
 * -> Extract to a Folder
