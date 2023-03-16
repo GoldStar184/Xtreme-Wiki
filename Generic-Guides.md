@@ -32,7 +32,7 @@ https://github.com/ClaraCrazy/Flipper-Xtreme/releases
 ### **The recommended method:**
 Now use an application to unzip the file you just downloaded. (If you don't know how to unzip / use 7zip look into the 7zip section)
 * -> Extract to a Folder
-* -> Copy folder into update on the Flipper via qFlipper 
+* -> Copy folder into update folder on the Flipper via qFlipper (SD Card/update/)
 * -> delete the apps folder (SD Card/apps/)
 * -> on the main menu press **Arrow Down**, navigate to the update folder via the Browser, select the folder which you copied over, select update ->(Run in App)
 
