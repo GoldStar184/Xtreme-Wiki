@@ -128,6 +128,9 @@ Icons/
             |-iButtonDolphinVerySuccess_108x52.bmx
     |-Infrared/
              |-DolphinReadingSuccess_59x63.bmx
+    |-Interface/
+             |-Lockscreen.bmx
+             |-WarningDolphin_45x42.bmx
     |-NFC/
         |-NFC_dolphin_emulation_47x61.bmx
     |-Passport/
