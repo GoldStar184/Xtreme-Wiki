@@ -14,7 +14,7 @@ For development:
 
 You should clone with 
 ```shell
-$ git clone --recursive https://github.com/DarkFlippers/unleashed-firmware.git
+$ git clone --recursive https://github.com/ClaraCrazy/Flipper-Xtreme.git
 ```
 
 # Build on Linux/macOS
