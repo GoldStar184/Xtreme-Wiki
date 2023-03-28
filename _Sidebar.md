@@ -2,6 +2,8 @@
 
 <h2><a href="Home">Home</a><dl></dl></h2>
 
+<h2><a href="Customization">Customization</a><dl></dl></h2>
+
 <h2><a href="Generic-Guides">Generic Guides</a><dl></dl></h2>
 
 <h2><details><summary>File Formats</summary><h5><ul>
