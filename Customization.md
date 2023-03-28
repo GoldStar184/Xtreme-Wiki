@@ -22,7 +22,7 @@ The main Interface section allows you to change a whole array of graphical thing
 - <h4>Graphics:</h4>
 
   - Asset Pack:
-    - Asset Packs allow you to change the background animations, lockscreen wallpaper, scanning assets and more. They are fairly simple to create and install, but for now, we will not explain it in too much detail. If you care about all of it, click [here](https://github.com/ClaraCrazy/Flipper-Xtreme/wiki/Asset-Packs)
+    - Asset Packs allow you to change the background animations, lockscreen wallpaper, scanning assets and more. They are fairly simple to create and install, but for now, we will not explain it in too much detail. If you care about all of it, click [here](https://github.com/ClaraCrazy/Flipper-Xtreme/wiki/Asset-Packs).
 <br><br>
   - Anim Speed:
     - Animation speed lets you change the speed at which your background animations play. You can slow them down or speed them up as you wish.
@@ -32,6 +32,9 @@ The main Interface section allows you to change a whole array of graphical thing
 <br><br>
   - Unlock Anims:
     - Asset pack creators have the option to lock certain Animations behind a level, meaning you have to be Level X to see it. This option lets you bypass these restrictions.
+<br><br>
+  - Fallback Anim:
+    - Lets you decide whether the fallback (thank you) animation will be randomly chosen. It will still show if an error occurs loading an animation.
 
 <br>
 
@@ -42,8 +45,8 @@ The main Interface section allows you to change a whole array of graphical thing
 - <h4>Main Menu:</h4>
 
   - Menu Style:
-    - Default: The default option is the Menu you all know already. Nothing special here
-    - Wii Menu: The people my age or older will surely remember the beauty that was the Wii Menu. Nice "Channels" to pick from, sorted in an X*X array. This is exactly what this is. Nostalgia time!
+    - App List: The default option is the Menu you all know already. Nothing special here
+    - Wii Grid: The people my age or older will surely remember the beauty that was the Wii Menu. Nice "Channels" to pick from, sorted in an X*X array. This is exactly what this is. Nostalgia time!
 <br><br>
   - App:
     - This is a display. It will show all the custom Apps you have so far added to the menu. Yes, you heard that right! You can add custom apps to the menu now. Should have been a feature this whole time, not ssure why it isnt.
@@ -59,8 +62,17 @@ The main Interface section allows you to change a whole array of graphical thing
 
 - <h4>Lock Screen:</h4>
 
-  - TBA
-
+  - Show Time:
+    - Toggle the clock visibility on the lockscreen.
+<br><br>
+  - Show Date:
+    - Toggle the date text on the lockscreen.
+<br><br>
+  - Show Statusbar:
+    - Toggle statusbar visibility on the lockscreen.
+<br><br>
+  - Unlock Prompt:
+    - Whether a prompt saying what button to press in order to unlock will be shown.
 <br>
 
 ------
@@ -79,7 +91,7 @@ The main Interface section allows you to change a whole array of graphical thing
     - Bar Borders allow you to add an additional border around your icons. Simply turn it on or off.
 <br><br>
   - Bar Background:
-    - The bar background is just a little fancy line on the top, connecting the Icons with the battery. If thats too much for you, turn it off
+    - The bar background is just a little fancy line on the top, connecting the Icons with the battery. If thats too much for you, turn it off.
 
 <br>
 
@@ -109,7 +121,7 @@ There are a few options for protocols. Lets talk about those:
 <br><br>
 - <h4>BadKB Mode:</h4>
 
-  - This allows you to toggle between USB and Bluetooth mode for BadKB (formerly known as BadUSB). More about that [here](https://github.com/ClaraCrazy/Flipper-Xtreme/wiki/BadKB)
+  - This allows you to toggle between USB and Bluetooth mode for BadKB (formerly known as BadUSB). More about that [here](https://github.com/ClaraCrazy/Flipper-Xtreme/wiki/BadKB).
 <br><br>  
 - <h4>BadBT Remember:</h4>
 
@@ -128,7 +140,7 @@ There are a few options for protocols. Lets talk about those:
 <br><br>
   - Static / Hopper frequencies:
     - Frequency:
-      - This is a basic frequency display, similar to the App display we talked about earlier. It shows you the frequencies you already added and lets you select them if you want to remove one
+      - This is a basic frequency display, similar to the App display we talked about earlier. It shows you the frequencies you already added and lets you select them if you want to remove one.
 <br><br>
   - Add Frequency:
       - Allows you to add your custom Frequency. Useful for keys / whatever, that we dont know about or can/will not implement for whatever reason we may have given.
@@ -158,13 +170,24 @@ There are a few options for protocols. Lets talk about those:
 <summary><code>Misc</code></summary>
 
 - <h4>Change Device Name:</h4>
+
   - Allows you to change the name of your Flipper. This shows up on the Passport, qFlipper and the Flipper mobile app.
 <br><br>
 - <h4>XP Level:</h4>
-  - Set your XP Level to whatever you want. No real use, just because you can
+
+  - Set your XP Level to whatever you want. No real use, just because you can.
 <br><br>
 - <h4>Butthurt Timer:</h4>
+
   - Allows you to manually set the "Butthurt" Timer of the Flipper, controlling how fast it will get sad when its not used.
+<br><br>
+- <h4>RGB Backlight:</h4>
+
+  - Allows you to enable the rgb backlight mode (requires installing a [hardware mod](https://github.com/Z3BRO/Flipper-Zero-RBG-Backlight)).
+<br><br>
+- <h4>LCD Color:</h4>
+
+  - Lets you change the screen color for the RGB backlight (requires previous option to be enabled).
 
 </details>
 
