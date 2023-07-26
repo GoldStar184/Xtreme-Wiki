@@ -109,49 +109,7 @@ Which is the same you can find in the firmware source code, in `assets/icons`. T
 - Some icons in the official firmware have different versions with different numbers to indicate the flipper level they target. Since our system has so many levels, we decided to keep it simple and remove the level progression from icons. For example `Passport/passport_happy1_46x49` becomes `Passport/passport_happy_46x49` and `Animations/Levelup1_128x64` becomes `Animations/Levelup_128x64`.
 - The `Passport/passport_DB` is the background for the passport page, it doesn't mention a pixel size because it should be the same as the Flipper screen size (128x64).
 
-Here are all the icons this system currently supports:
-```
-Icons/
-    |-Animations/
-               |-Levelup_128x64/
-                              |-frame_0.bm
-                              |...
-                              |-meta
-    |-BLE/
-        |-BLE_Pairing_128x64.bmx
-    |-Dolphin/
-            |-DolphinCommon_56x48.bmx
-    |-iButton/
-            |-DolphinMafia_115x62.bmx
-            |-DolphinNice_96x59.bmx
-            |-DolphinWait_61x59.bmx
-            |-iButtonDolphinVerySuccess_108x52.bmx
-    |-Infrared/
-             |-DolphinReadingSuccess_59x63.bmx
-    |-Interface/
-             |-Lockscreen.bmx
-             |-WarningDolphin_45x42.bmx
-    |-NFC/
-        |-NFC_dolphin_emulation_47x61.bmx
-    |-Passport/
-             |-passport_bad_46x49.bmx
-             |-passport_DB.bmx
-             |-passport_happy_46x49.bmx
-             |-passport_okay_46x49.bmx
-    |-RFID/
-         |-RFIDDolphinReceive_97x61.bmx
-         |-RFIDDolphinSend_97x61.bmx
-         |-RFIDDolphinSuccess_108x57.bmx
-    |-Settings/
-             |-Cry_dolph_55x52.bmx
-    |-SubGhz/
-           |-Scanning_123x52.bmx
-    |-U2F/
-        |-Auth_62x31.bmx
-        |-Connect_me_62x31.bmx
-        |-Connected_62x31.bmx
-        |-Error_62x31.bmx
-```
+This system supports **all** internal assets!
 
 <br>
 
