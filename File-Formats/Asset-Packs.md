@@ -8,11 +8,11 @@ Asset Packs are an exclusive feature of Xtreme Firmware that allows you to load 
 
 Installing Asset Packs is quite easy and straightforward. First, make sure you're on an updated version of XFW before you begin, Asset Packs were added in v40! Then, find some packs to install (we have a channel in our discord where you can find some) or make your own (see below). Once you have some packs to install:
 
-- Open qFlipper and navigate to `SD Card` and into `dolphin_custom`; if you do not see this folder, try reinstalling the firmware, or create it yourself.
+- Open qFlipper and navigate to `SD Card` and into `asset_packs`; if you do not see this folder, try reinstalling the firmware, or create it yourself.
 
-- Here (`SD/dolphin_custom`) is where all Asset Packs are stored. Simply unzip your packs and upload the folders here.
+- Here (`SD/asset_packs`) is where all Asset Packs are stored. Simply unzip your packs and upload the folders here.
 
-  If you did this correctly, you should see `SD/dolphin_custom/PackName/Anims` and/or `SD/dolphin_custom/PackName/Icons`.
+  If you did this correctly, you should see `SD/asset_packs/PackName/Anims` and/or `SD/asset_packs/PackName/Icons`.
 
 - Now simply open the Xtreme Settings app (from the home screen press `Arrow UP` and then `Xtreme Settings`) and select the asset pack you want. When you back out, Flipper will restart and your animations and icons will use the ones from the selected pack!
 
@@ -33,7 +33,7 @@ Animations use the standard and already well documented animation format, so thi
 The basic animation structure is:
 ```
 SD/
- |-dolphin_custom/
+ |-asset_packs/
                 |-PackName/
                          |-Icons/
                                |...
@@ -55,7 +55,7 @@ SD/
 
 Again, this is all fairly standard Flipper animation stuff, there are plenty of tutorials on YouTube. The key differences with the Asset Pack animation system are:
 
-- They go in `SD/dolphin_custom/PackName/Anims` instead of `SD/dolphin`.
+- They go in `SD/asset_packs/PackName/Anims` instead of `SD/dolphin`.
 - XFW has up to level 30, so make sure to update your manifest.txt accordingly!
 
 <br>
@@ -79,7 +79,7 @@ Other than those few differences above, we kept the same icon naming scheme and 
 The basic icon structure is:
 ```
 SD/
- |-dolphin_custom/
+ |-asset_packs/
                 |-PackName/
                          |-Anims/
                                |...
@@ -146,9 +146,9 @@ All the .bm and .bmx struggles are dealt with by the packer system, which is in 
 
 - It will explain and ask for confirmation, so press Enter.
 
-- When it's done (it's usually quite quick) you will have a `dolphin_custom` folder right next to your source packs. Inside it you will see your Asset Pack, but in compiled form (.png images swapped for .bm and .bmx).
+- When it's done (it's usually quite quick) you will have a `asset_packs` folder right next to your source packs. Inside it you will see your Asset Pack, but in compiled form (.png images swapped for .bm and .bmx).
 
-- Now upload the packed packs from that folder onto your flipper in `SD/dolphin_custom`.
+- Now upload the packed packs from that folder onto your flipper in `SD/asset_packs`.
 
 - Done! Just select it from the Xtreme Settings app now. And if you're generous share your (packed) asset pack in #asset-packs on discord.
 
