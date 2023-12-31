@@ -1,12 +1,10 @@
 # Introduction
 ## How it started
 
-So, I basically made a Write-Up together with taimtam?#4621 of the most Modules and a FAQ for them if me or them can think of any questions. I recommend reading this guide to learn about each module if you want to know more about the functionality etc..
-We also cover things about the Xtreme Firmware, since our opinion is that it's the best firmware currently out there for the flipper, so far we did not find any Firmware as well maintained and stable as this one.
+So, we basically made a Write-Up of most Modules and a FAQ for them. I recommend reading this guide to learn about each module if you want to know more about the functionality etc..
 
 **IMPORTANT:**
-If you have any questions or problems which are not covered in this guide, I would still love to hear about it and help you. Please join our discord server and ping one of the staff members (or me) or just message me directly: whois.hoeless#1682
-Also, if there is something wrong in my guide please report it to me or give me feedback, I only can make this guide off of my current knowledge about the Flipper. (And I can't know everything under any circumstance so if you find anything that's wrong just report it..)
+If you have any questions or problems which are not covered in this guide, we would still love to hear about it and help you. Please join our discord server and ask us. Also, if there is something wrong in our guide please report it to us or give us feedback
 
 Here are some **Terms** which are commonly used on the server so you know what people talk about:
 
@@ -24,24 +22,10 @@ Here are some **Terms** which are commonly used on the server so you know what p
 
 
 # Installation
-Get the latest stable version of the XFW Github Releases:
-https://github.com/ClaraCrazy/Flipper-Xtreme/releases
-
-**DO NOT DOWNLOAD THE SOURCE CODE ONLY THE RELEASES!!**
-
-### **The recommended method:**
-Now use an application to unzip the file you just downloaded. (If you don't know how to unzip / use 7zip look into the 7zip section)
-* -> Extract to a Folder
-* -> Copy folder into update folder on the Flipper via qFlipper (SD Card/update/)
-* -> delete the apps folder (SD Card/apps/)
-* -> on the main menu press **Arrow Down**, navigate to the update folder via the Browser, select the folder which you copied over, select update ->(Run in App)
+Get the latest stable version of XFW:
+https://flipper-xtre.me/update
 
 ### Installation FAQ: 
-**Does the folder which I copy over have to have a specific name?**
-> A: No, you can call it whatever.. you can copy the name of the .zip file or just invent something! Just don't copy the .zip archive.
-
-<br/>
-
 **While it's flashing my screen and LED starts to blink, what do I do?**
 > A: We have had this happen before, it's some bug which we haven't figured out yet, but it shouldn't affect the installation so just wait it out it should go away in a few seconds
 
@@ -437,90 +421,6 @@ Here is a nice video explaining [how bruteforcing Sub-Ghz signals actually works
 
 - [ Applications -> GPIO ]
  - So far I only used it for the ESP32 Wifi Marauder, so I might add more stuff as I get feedback and dms from people wanting to contribute. The ESP32 Wifi Marauder has its own section.
- 
-# Xtreme Firmware
-With the new V40 update of the Xtreme Firmware, we got introduced to a lot of changes in the animation system, aswell as a new Application called Xtreme Settings.
-
-You can find the Xtreme Settings by pressing the **Arrow Up** in the menu. Or by selecting the Xtreme Settings app from the main menu.
-
-## Graphics:
-#### Asset Pack:
-- SFW:     Change all graphics to the default flipper animations (SFW)
-- NSFW:  Change all graphics to Clara's NSFW animations
-- WatchDogs: Change all graphics to Willy's WD animations
-- Other: Other animations which you installed via our [Asset pack feature](https://github.com/ClaraCrazy/Flipper-Xtreme/wiki/Asset-Packs "Asset pack feature")
-
-#### Anim Speed:
-- Change the speed of your animations from 25% up to 300%. Default = 100%
-
-#### Cycle Anims:
-- Lets you cycle through the animations without having to hold the enter button in the menu. Options: OFF (infinity), 30S, 1M, 5M, 10M 15M, 30M, 1H, 2H, 6H, 12H, 24H and customisable in Meta.txt (uses the Meta for the current animation. to change the duration, change it in the Meta of the animation). Default = Meta.txt
-
-#### Unlock Anims:
-- Acts like an unlock all -> Unlock all animations without a lvl requirement, bypasses the mood requirement aswell. Default = OFF
-
-## Status Bar: 
-
-#### Battery Icon:
-- Customize the style of your battery. Options: OFF (disable battery), Bar, %, Inv. %, Retro3, Retro5, Bar %.
-
-#### Status Icons:
-- Lets you toggle on and off the Icons for SD and BT
-
-#### Bar Borders:
-- Lets you toggle on and off the Bar Borders
-
-#### Bar Background: 
-- Lets you toggle on and off the Bar Background
-
-## Protocols:
-
-#### BadKB Mode:
-- Lets you default between USB and BT for the Bad KB app ( you can still change the mode in the config of the the Bad KB app, this is just the defualt for when you open it. )
-
-#### BadBT Remember:
-- Toggle on or off whether devices should be allowed to reconnect to your flipper without re-pairing with the flipper
-
-#### SubGHz Frequencies:
-Allows you to add custom frequencies to Sub-GHz!
-##### Static Frequencies:
-- Static Freq: Shows what custom frequency is selected ( needed for the Delete button below )
-- Delete Static Freq: Deletes the current selected custom frequency ( look at the Static Freq list above )
-- Add Static Freq: Lets you add a custom static frequency.  
-
-##### Hopper Frequencies:
-- Hopper Freq: Shows what custom frequency is selected ( needed for the Delete button below )
-- Delete Hopper Freq: Deletes the current selected custom frequency ( look at the Hopper Freq list above )
-- Add Hopper Freq: Lets you add a custom hopper frequency.  
-
-#### SubGhz Extend:
-- Lets you set 'dangerous' frequencies. Just kidding, they say that for legal bullshit, both antenna and the chip are built to be able to operate at these frequencies. It's just that the default one's are for legal public usage. 
-
-#### SubGhz Bypass:
-- Lets you bypass your country's frequency restrictions. Unlocks all 'safe' / semi legal frequencies
-
-### Dolphin 
-
-#### XP Level:
-- Lets you set your own XP level. Lvl 1 - 30. **Lvl 30 = Max Lvl.**
-
-#### Butthurt Timer:
-- Lets you set the Butthurt time (interval) in which the flipper's mood will change due to you not actively using it. Options: OFF, 30 minutes, 1 hour, 2 hours, 4 hours, 6 hours, 8 hours, 12 hours, 24 hours, 48 hours. Default = 12 hours
-
-### Misc 
-#### Sort Dirs First:
-- Forces your flipper to sort dirs before files and put the dirs above the files
-
-#### Change Device Name
-- Changes the name of your flipper
-
-### Experimental Options:
-
-#### Dark Mode: 
-- Inverts all the colors on your flipper forcing it to make a "darkmode"
-
-#### Left Handed:
-- Flips the screen of the flipper and inverts all inputs
 
 # Flipper Keyboard
 
@@ -553,7 +453,7 @@ on top of that adding stuff to the GPIO makes it even more capable
 
 if you come in with high expectations you will be severely disappointed, is it worth 170$ to turn off a projector or make an intercom at CVS go crazy? No? then don't get it. 
 
-# Keybinds
+# Default Keybinds (can all be changed in the regular settings app for Xtreme users)
 ## On the main menu:
 
 ### Short press:
