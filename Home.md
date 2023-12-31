@@ -22,25 +22,22 @@ For a full in-depth info on what the Firmware can do, please check the [Readme](
 **1)** How do I access Xtreme Firmware features and settings?
 > From the Home screen (the one with the animations) hit the `Arrow UP` button, go into `Xtreme Settings`, and customize to your heart's content!
 
-**2)** How do I enable **NSFW** mode / unlock higher level animations?
-> Open the Xtreme Settings app (more info above), and its gonna be right there for you to change.
+**2)** How can I customize my flipper?
+> Open the Xtreme Settings app (more info above), and you will find a ton of settings to change your flippers look and feel, ranging from different menu styles, asset packs and more.
 
 **3)** Is it possible to set my Dolphin level?
 > Of course! To set a custom level, simply open the Xtreme Settings app and modify the level to your liking!
 
-**4)** I get an error saying "furi_version mismatch" when loading an app, how do I fix that?
-> Open qFlipper, go to `SD` and delete the `Apps` folder. Then launch the latest update again. This folder houses all the .fap files, which do not update to the correct API versions by default if old ones are present (Thanks flipper devs). If the issue persists, its our fault and please open a ticket!
-
-**5)** After a while, my Slut stops to level up, why is that?
+**4)** After a while, my Flipper stops to level up, why is that?
 > We added max daily limits to make sure you aren't just cheating your way to level 30. Please note that turning off your Flipper will stop the timer, so you will still be limited the next day! We recommend not turning Flipper off.
 
-**6)** I really like the firmware, can I help?
+**5)** I really like the firmware, can I help?
 > You can donate on the links you find on the GitHub releases, preferably the Patreon. You can spend time in our server to help others with issues, you can contribute to the project by making PRs on GitHub and most importantly, you can simply spread the word!
 
-**7)** I dont like the animations, and dont want to switch to another FW, how do I change them?
-> You can use Asset Packs! This is an exclusive feature of our firmware that allows you to load custom animations and icons without recompiling the firmware. You can read more info on this on the homepage (ReadMe) and here in the wiki, in the File Formats section.
+**6)** I dont like the animations, and dont want to switch to another FW, how do I change them?
+> You can use Asset Packs! This is an exclusive feature of our firmware that allows you to load custom animations and icons without recompiling the firmware. You can download them on our [website](https://flipper-xtre.me/asset-packs) and read more about them here in the wiki, in the File Formats section.
 
-**8)** After an Update / Randomly one day, qFlipper says something like *permission denied*.. Whats going on?
+**7)** After an Update / Randomly one day, qFlipper says something like *permission denied*.. Whats going on?
 > Windows is going on... Essentially, either two devices use your COM port qFlipper expects, or Windows assigned your Flipper a completely different COM port. This is partially documented here: <https://forum.flipperzero.one/t/qflipper-not-recognizing-device-2-devices-on-one-com-port-while-bluetooth-on-windows-is-turned-on/1910>, let us know if you require help with this
 
 <br>
