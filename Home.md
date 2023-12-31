@@ -14,7 +14,7 @@ Flipper Zero is a portable Tamagotchi-like multi-functional device developed for
 # XFW / Xtreme Firmware
 XFW, also known as Xtreme, is the Firmware written by us. Its a relatively new Firmware that has already gained over two thousand users in the first three weeks of its existence. This is due to the fact that it includes virtually all possible applications, receives constant updates that are based on what the community wants, has no restrictions unlike most other Firmware for the Flipper Zero and because the developers try their best to create a thriving community.
 
-For a full in-depth info on what the Firmware can do, please check the [Readme](https://github.com/ClaraCrazy/Flipper-Xtreme#xfw---xtreme-firmware-for-the-flipper-zero)
+For a full in-depth info on what the Firmware can do, please check the [Readme](https://github.com/Flipper-XFW/Xtreme-Firmware?tab=readme-ov-file#xfw---xtreme-firmware-for-the-flipper-zero)
 
 <br>
 
