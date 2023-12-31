@@ -33,8 +33,8 @@ The main Interface section allows you to change a whole array of graphical thing
   - Unlock Anims:
     - Asset pack creators have the option to lock certain Animations behind a level, meaning you have to be Level X to see it. This option lets you bypass these restrictions.
 <br><br>
-  - Fallback Anim:
-    - Lets you decide whether the fallback (thank you) animation will be randomly chosen. It will still show if an error occurs loading an animation.
+  - Credits Anim:
+    - Lets you decide whether the credit (thank you) animation will be randomly chosen.
 
 <br>
 
@@ -45,8 +45,7 @@ The main Interface section allows you to change a whole array of graphical thing
 - <h4>Main Menu:</h4>
 
   - Menu Style:
-    - App List: The default option is the Menu you all know already. Nothing special here
-    - Wii Grid: The people my age or older will surely remember the beauty that was the Wii Menu. Nice "Channels" to pick from, sorted in an X*X array. This is exactly what this is. Nostalgia time!
+    - Lets you choose from a variety of different menu styles
 <br><br>
   - App:
     - This is a display. It will show all the custom Apps you have so far added to the menu. Yes, you heard that right! You can add custom apps to the menu now. Should have been a feature this whole time, not ssure why it isnt.
@@ -62,6 +61,18 @@ The main Interface section allows you to change a whole array of graphical thing
 
 - <h4>Lock Screen:</h4>
 
+  - Lock on boot:
+    - Decide if you want your flipper to lock on every boot, so you have to use your passcode to unlock it first.
+<br><br>
+  - Format on 10 Bad Pins:
+    - Paranoid? Then enable this. It will fully wipe your flipper after 10 bad pin entries
+<br><br>
+  - Allow RPC While Locked:
+    - Toggle the RPC in locked state (Android control)
+<br><br>
+  - Allow Poweroff:
+    - 
+<br><br>
   - Show Time:
     - Toggle the clock visibility on the lockscreen.
 <br><br>
@@ -73,6 +84,9 @@ The main Interface section allows you to change a whole array of graphical thing
 <br><br>
   - Unlock Prompt:
     - Whether a prompt saying what button to press in order to unlock will be shown.
+<br><br>
+  - Transparent lockscreen:
+    - This allows you to see the current animation of your flipper, instead of the lockscreen animation.
 <br>
 
 ------
@@ -83,6 +97,9 @@ The main Interface section allows you to change a whole array of graphical thing
 
   - Battery Icon:
     - The Battery Icon allows you to pick between quite a few different Battery styles. One doesnt fit all. But many will increase the odds.
+<br><br>
+  - Show Clock:
+    - Toggle the clock thats on your mainscreen
 <br><br>
   - Status Icons:
     - Status Icons are loved by some, and hated by others. Whichever party you belong to, we got you covered. Turn the on / off as you wish.
@@ -99,17 +116,19 @@ The main Interface section allows you to change a whole array of graphical thing
 
 <br>
 
-- <h4>Common:</h4>
+- <h4>File Browser:</h4>
 
-  - Sort Dirst First:
-    - Sorting by Dirs first changes the order of files in the Browser.
-
-  - Dark Mode:
-    - Yup, dark mode. For real. It simply inverts the colors of all areas.
-
-  - Lefty Mode:
-    - We know left-handed people exist. OFW seemed to forget about that for a solid three years, so we added it ourselves. It flips the screen on its head, and inverts the controls.
-
+  - Folders above files:
+    - Toggle the sorting to show folders first
+<br><br>
+  - Show hidden Files:
+    - Toggle hidden files (.files) on or off
+<br><br>
+  - Show internal Tab:
+    - Show the internal flipper storage tab in the file browser
+<br><br>
+  - Favorites timeout:
+    - Timeout for favorites (quick actions) like running a specific NFC file 
 -----
 
 </details>
@@ -169,25 +188,49 @@ There are a few options for protocols. Lets talk about those:
 <details>
 <summary><code>Misc</code></summary>
 
-- <h4>Change Device Name:</h4>
 
+- <h4>Screen:</h4>
+
+  - Dark Mode:
+    - Yup, dark mode. For real. It simply inverts the colors of all areas.
+<br><br>
+  - Lefty Mode:
+    - We know left-handed people exist. OFW seemed to forget about that for a solid three years, so we added it ourselves. It flips the screen on its head, and inverts the controls.
+<br><br>
+  - RGB Backlight:
+    - If you have the *hardware* Backlight mod, then those are the settings you need. Individual LED colors, rainbow, etc.
+
+<br>
+
+------
+
+<br>
+
+- <h4>Dolphin:</h4>
+
+  - XP Level:
+    - Set your XP Level to whatever you want. No real use, just because you can.
+<br><br>
+  - Dolphin Angry:
+    - Set the anger level of your dolphin (cosmetic only, compatible asset pack required)
+<br><br>
+  - Butthurt Timer:
+    - Allows you to manually set the "Butthurt" Timer of the Flipper, controlling how fast it will get sad when its not used.
+
+<br>
+
+------
+
+<br>
+
+- Change Device Name:
   - Allows you to change the name of your Flipper. This shows up on the Passport, qFlipper and the Flipper mobile app.
 <br><br>
-- <h4>XP Level:</h4>
-
-  - Set your XP Level to whatever you want. No real use, just because you can.
+- Charge Cap:
+  - Set the max. charging % of your flipper
 <br><br>
-- <h4>Butthurt Timer:</h4>
-
-  - Allows you to manually set the "Butthurt" Timer of the Flipper, controlling how fast it will get sad when its not used.
-<br><br>
-- <h4>RGB Backlight:</h4>
-
-  - Allows you to enable the rgb backlight mode (requires installing a [hardware mod](https://github.com/Z3BRO/Flipper-Zero-RBG-Backlight)).
-<br><br>
-- <h4>LCD Color:</h4>
-
-  - Lets you change the screen color for the RGB backlight (requires previous option to be enabled).
+- Show Xtreme Intro:
+  - Re-play the intro you seen when first installing xtreme
 
 </details>
 
