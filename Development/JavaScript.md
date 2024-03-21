@@ -11,8 +11,6 @@ flipper
 gpio
 keyboard
 math
-Various changes, in expansion, rgb, js
-last week
 notification
 serial
 storage
