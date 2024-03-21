@@ -26,6 +26,7 @@
   <li><a href="How-To-Build">How To Build</a></li>
   <li><a href="OTA-Updates">OTA Updates</a></li>
   <li><a href="Unit-Tests">Unit Tests</a></li>
+  <li><a href="JavaScript">JavaScript</a></li>
 </ul></h5></details></h2>
 
 <h2><a href="Key-Combos">Key Combos</a><dl></dl></h2>
